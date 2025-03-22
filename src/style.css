@@ -1,3 +1,8 @@
+:root {
+  --link-hoover-color: #00acdc;
+  --link-isactive-color: #00acdc;
+}
+
 body {
   margin: 0;
 }
@@ -59,11 +64,11 @@ body {
 }
 
 .nav__link:hover {
-  color: #00acdc;
+  color: var(--link-hoover-color);
 }
 
 .nav__link.is-active {
-  color: #00acdc;
+  color: var(--link-isactive-color);
 }
 
 .nav__link.is-active::after {
